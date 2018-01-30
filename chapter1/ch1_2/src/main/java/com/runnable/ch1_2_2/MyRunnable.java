@@ -1,4 +1,4 @@
-package com.thread.ch1_2_1;
+package com.runnable.ch1_2_2;
 
 public class MyRunnable implements Runnable {
 

@@ -1,4 +1,4 @@
-package com.runnable.ch1_2_2;
+package com.thread.ch1_2_1;
 
 public class CallMethodName {
 	public static void main(String[] args) {
