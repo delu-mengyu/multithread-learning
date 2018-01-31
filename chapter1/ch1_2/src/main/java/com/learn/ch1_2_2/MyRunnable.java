@@ -1,4 +1,4 @@
-package com.runnable.ch1_2_2;
+package com.learn.ch1_2_2;
 
 public class MyRunnable implements Runnable {
 
