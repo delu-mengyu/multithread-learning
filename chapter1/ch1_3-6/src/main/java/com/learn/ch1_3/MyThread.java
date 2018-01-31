@@ -6,6 +6,13 @@ package com.learn.ch1_3;
  * @author dongzhou
  * @date 2018年1月31日 下午4:37:24
  */
-class MyThread {
+class MyThread extends Thread {
+	public MyThread() {
+		System.out.println("无参构造方法：" + Thread.currentThread().getName());
+	}
 
+	@Override
+	public void run() {
+		System.out.println("run方法：" + Thread.currentThread().getName());
+	}
 }
