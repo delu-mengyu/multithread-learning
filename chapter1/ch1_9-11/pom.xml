@@ -2,17 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.learning</groupId>
-    <artifactId>multithread-learning</artifactId>
+    <artifactId>chapter1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>chapter1</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>ch1_2</module>
-  	<module>ch1_3</module>
-  	<module>ch1_3-6</module>
-  	<module>ch1_7</module>
-  	<module>ch1_8</module>
-  	<module>ch1_9-11</module>
-  </modules>
+  <artifactId>ch1_9-11</artifactId>
 </project>
