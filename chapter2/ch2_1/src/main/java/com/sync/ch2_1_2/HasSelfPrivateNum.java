@@ -1,16 +1,16 @@
-package com.sync.ch2_1_1;
+package com.sync.ch2_1_2;
 
 /**
  * @ClassName: HasSelfPrivateNum
- * @Description: 2.1.1 方法内部的私有变量是线程安全的
+ * @Description: 2.1.2 实例变量是非线程安全的
  * @author dongzhou
  * @date 2018年2月2日 下午5:46:43
  */
 class HasSelfPrivateNum {
+	private int num = 0;
 
 	public void addI(String username) {
 		try {
-			int num = 0;
 			if (username.equals("a")) {
 				num = 100;
 				System.out.println("a set over");
