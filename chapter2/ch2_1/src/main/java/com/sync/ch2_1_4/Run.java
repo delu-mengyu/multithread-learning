@@ -9,7 +9,7 @@ package com.sync.ch2_1_4;
 public class Run {
 	/*
 	 * A线程先持有object对象的Lock锁，但是B仍可调用object对象中非synchronized类型的方法
-	 * A线程现持有object对象的Lock所以，B若此时调用object对象中synchronized类型的方法，扔需同步
+	 * A线程现持有object对象的Lock所以，B若此时调用object对象中synchronized类型的方法，仍需同步
 	 */
 
 	public static void main(String[] args) {
